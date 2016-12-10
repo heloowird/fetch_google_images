@@ -5,7 +5,7 @@ The scripts aim to fetch html pages responsed by google when using images or key
 ###
 Usage:
 
-* Before running codes, you should replace some arguments. 
+* Before running scripts, you should replace some arguments in codes. 
 	* `http_proxy=[your_proxy]`
 		* If you can access google directly, then delete it. If not, using an available proxy to replace it
 	* `--user-agent="[your_user_agent]"`
