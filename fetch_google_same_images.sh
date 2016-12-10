@@ -27,7 +27,10 @@ function wget_google_page()
 	done
 }
 
-target_data_dir="./google_image_same_pages"
+# input format:
+#	url \t html_prefix
+input_url_index=$1
+target_data_dir=$2
 if [ ! -d $target_data_dir ]
 then
 	mkdir $target_data_dir
@@ -47,4 +50,4 @@ do
 		random "7" "13"
 		sleep $?
 	done		
-done < $1
+done < $input_url_index
