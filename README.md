@@ -1,6 +1,6 @@
 # fetch_google_images
 
-The scripts aim to fetch html pages responsed by google when using images or keywords to get related or same images.
+The scripts aim to fetch results of google image search when using keywords or image to get related or same source images.
 
 ###
 Usage:
